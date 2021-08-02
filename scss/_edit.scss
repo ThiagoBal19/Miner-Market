@@ -1,0 +1,15 @@
+@import "../bootstrap node/node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    background-color: rgba(34, 34, 34, 0.616);
+}
+a:hover {
+    color: white;
+}
+.input-group {
+    width: 50%;
+}
+h4 {
+    font-size: 14px;
+    margin-bottom: 0px;
+}

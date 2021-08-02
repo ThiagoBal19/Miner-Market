@@ -1,0 +1,39 @@
+#inicio {
+    
+    .inicio__logo {
+        width: 230px;
+        height: 75px;
+    }
+
+    .inicio__menu {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+    }
+
+    .inicio__menu > li > a {
+        text-decoration: none;
+        margin: 0px 25px;
+    }
+
+    .inicio__menu li a{
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .inicio__menu li {
+        list-style: none;
+    }
+    
+    .inicio__menu > li:hover {
+        transition: 1s;
+        transform: scale(1.1, 1.1);
+    }
+}

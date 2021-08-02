@@ -1,0 +1,13 @@
+#inicio {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black, rgba(34, 34, 34, 0.616));
+    margin-bottom: 16px;
+}
+
+@import "header";
+@import "responsive";
+@import "edit";
