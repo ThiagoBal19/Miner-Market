@@ -39,6 +39,10 @@ body {
     background-color: rgba(34, 34, 34, 0.616);
 }
 
+a {
+    color: white;
+}
+
 h1 {
     color: lightgoldenrodyellow;
     font-size: 26px;
