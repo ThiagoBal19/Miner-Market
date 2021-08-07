@@ -1,5 +1,4 @@
 #inicio {
-  height: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,54 +15,6 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(34, 34, 34, 0.616)));
   background-image: linear-gradient(black, rgba(34, 34, 34, 0.616));
   margin-bottom: 16px;
-}
-
-#inicio .inicio__logo {
-  width: 230px;
-  height: 75px;
-}
-
-#inicio .inicio__menu {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0;
-  margin: 0;
-  margin-left: 40px;
-}
-
-#inicio .inicio__menu > li > a {
-  text-decoration: none;
-  margin: 0px 25px;
-}
-
-#inicio .inicio__menu li a {
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-#inicio .inicio__menu li {
-  list-style: none;
-}
-
-#inicio .inicio__menu > li:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
 }
 
 @media only screen and (min-width: 150px) and (max-width: 720px) {
@@ -11620,12 +11571,6 @@ h4, .h4 {
   margin-bottom: 0px;
 }
 
-.nav-link, .navbar-light .navbar-nav {
-  color: white;
-  font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: white;
   font-size: 24px;
@@ -11637,18 +11582,17 @@ h4, .h4 {
   color: white;
   -webkit-transition: 1s;
   transition: 1s;
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  -webkit-transform: translate(2.5px, 0px);
+          transform: translate(2.5px, 0px);
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: white;
 }
 
-.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 0rem 2rem;
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
 }
 
 .navbar-toggler {

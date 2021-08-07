@@ -1,5 +1,4 @@
 #inicio {
-    height: 75px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,6 +7,5 @@
     margin-bottom: 16px;
 }
 
-@import "header";
 @import "responsive";
 @import "edit";
