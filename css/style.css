@@ -13,6 +13,7 @@
     Enlaces:
         white
         beige
+        #212529
     Bordes:
         silver
 */
@@ -189,7 +190,7 @@ footer {
 }
 
 iframe {
-    width: 95%;
+    width: 100%;
     height: 240px;
     border-radius: 3px;
     margin: 20px 15px;
