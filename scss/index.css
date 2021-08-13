@@ -17,6 +17,33 @@
   margin-bottom: 16px;
 }
 
+#bannerInformativo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+  padding: 3rem;
+}
+
+#bannerInformativo h1, #bannerInformativo .h1 {
+  color: lightgoldenrodyellow;
+  font-size: xx-large;
+}
+
+#bannerInformativo p {
+  color: #dedeb0;
+}
+
 @media only screen and (min-width: 150px) and (max-width: 720px) {
   #inicio {
     -webkit-box-pack: center;

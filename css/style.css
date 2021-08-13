@@ -10,6 +10,7 @@
         black
     Párrafos:
         beige
+        #dedeb0
     Enlaces:
         white
         beige
@@ -131,7 +132,13 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     justify-items: center;
-    margin-top: 16px;
+    margin-top: 0.5rem;
+}
+
+.encabezadoCategorias h2 {
+    color: lightgoldenrodyellow;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .categorieOne {
