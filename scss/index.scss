@@ -7,19 +7,35 @@
     margin-bottom: 16px;
 }
 #bannerInformativo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: rgb(167, 167, 167);
 
     h1 {
-        color: lightgoldenrodyellow;
-        font-size: xx-large;
+        color: black;
+        font-size: x-large;
     }
     p {
-        color: #dedeb0;
+        color: #424242;
+    }
+    .medios {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0.5rem;
+    }
+    @each $size in pic {
+        .#{$size} {
+            width: 5rem;
+        }
     }
 }
 

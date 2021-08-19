@@ -6,11 +6,11 @@
         encabezados: rgba(0, 0, 0, 0.904)
         artículos: rgb(160, 160, 160)
         body: rgba(34, 34, 34, 0.616)
-        rgb(167, 167, 167)
-        black
+        menú y banner: rgb(167, 167, 167)
+        footer: black
     Párrafos:
         beige
-        #dedeb0
+        #424242
     Enlaces:
         white
         beige
@@ -80,7 +80,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
-    margin-top: 16px;
+    margin-top: 3rem;
 }
 
 .infoPieDePagina {

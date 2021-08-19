@@ -18,6 +18,25 @@
 }
 
 #bannerInformativo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #a7a7a7;
+}
+
+#bannerInformativo h1, #bannerInformativo .h1 {
+  color: black;
+  font-size: x-large;
+}
+
+#bannerInformativo p {
+  color: #424242;
+}
+
+#bannerInformativo .medios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,23 +44,30 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 1rem;
-  padding: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#bannerInformativo h1, #bannerInformativo .h1 {
-  color: lightgoldenrodyellow;
-  font-size: xx-large;
+#bannerInformativo .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.5rem;
 }
 
-#bannerInformativo p {
-  color: #dedeb0;
+#bannerInformativo .pic {
+  width: 5rem;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 720px) {
@@ -56,6 +82,10 @@
   }
   #contacto .input-group {
     width: 100%;
+  }
+  #bannerInformativo {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 
