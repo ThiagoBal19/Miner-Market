@@ -40,17 +40,21 @@
 }
 #brand {
     background-color: #5d5d5d;
-    position: relative;
+    margin-bottom: 1.5rem;
 
+    .brand__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
     .brand__logo {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-around;
     }
     .brand__logo > img {
-        width: 7rem;
-        margin: 1.8rem;
+        width: 10rem;
+        padding: 0.5rem;
         opacity: 50%;
     }
     .brand__logo img:hover {

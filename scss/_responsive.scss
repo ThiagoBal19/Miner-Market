@@ -14,4 +14,28 @@
     #bannerInformativo {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    #brand {
+        .brand__grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .brand__logo {
+            align-items: center;
+        }
+        .brand__logo > img {
+            width: 7rem;
+            padding: 0.4rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1000px) {
+    #brand {
+        .brand__grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .brand__logo > img {
+            padding: 0;
+        }
+    }
 }
