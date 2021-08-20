@@ -8,7 +8,6 @@
         body: rgba(34, 34, 34, 0.616)
         menú, banner: rgb(167, 167, 167)
         brand: #5d5d5d
-        footer: black
     Párrafos:
         beige
         #424242
@@ -80,7 +79,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: black;
+    align-items: center;
+    background-image: linear-gradient(black, rgba(34, 34, 34, 0.616));
     margin-top: 3rem;
 }
 
